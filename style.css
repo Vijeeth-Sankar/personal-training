@@ -98,6 +98,24 @@
     height: auto;
 }
 
+#package {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+
+#paa {
+    background-color: rgb(75, 148, 161);
+    height: 50vh;
+    width: 50vh;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
 #book {
     height: 650px;
     background: #232121;
@@ -226,5 +244,11 @@ option {
     }
     #botton {
         margin-top: 30px;
+    }
+    #package {
+        display: inline;
+    }
+    #paa {
+        width: auto;
     }
 }

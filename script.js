@@ -3,7 +3,7 @@ function sendEmail() {
         Host: "smtp.gmail.com",
         Username: "kuttyk321@gmail.com",
         Password: "pjxeyotcgafqtdow",
-        To: 'petervinoths14@gmail.com',
+        To: 'yogeshsanjai@gmail.com',
         From: document.getElementById("email").value,
         Subject: "New Admission",
         Body: "Name:" + document.getElementById("name").value +
