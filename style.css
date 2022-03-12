@@ -250,5 +250,6 @@ option {
     }
     #paa {
         width: auto;
+        height: auto;
     }
 }
